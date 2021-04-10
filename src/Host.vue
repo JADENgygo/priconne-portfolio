@@ -2,9 +2,8 @@
 	<div class="uk-container uk-margin-small-top uk-margin-bottom">
 		<div class="uk-text-muted">サイト作成者: <a class="uk-link-muted" href="https://twitter.com/JADENgygo">@JADENgygo</a></div>
 		<div class="uk-text-lead uk-text-center uk-margin-top">
-			作成したプリコネツール
+			プリコネツール一覧
 		</div>
-		<div class="uk-text-muted uk-text-center uk-margin-top">Twitterのプロフに収まらなくなったので</div>
 		<div class="uk-flex uk-flex-middle uk-child-width-1-2 uk-margin-top">
 			<div class="uk-margin-small-right uk-text-center"><img v-bind:src="stickersPath"></div>
 			<div class="uk-margin-small-left uk-text-center">
