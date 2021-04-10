@@ -44,11 +44,11 @@ import UIkit from 'uikit';
 
 @Component
 export default class Host extends Vue {
-	private stickersPath: string = './img/stickers.png';
-	private likeCounterPath: string = './img/like_counter.png';
-	private clanProfileGeneratorPath: string = './img/clan_profile_card_generator.png';
-	private lootBoxAnnouncementImageGeneratorPath: string = './img/loot_box_announcement_image_generator.png';
-	private priconneMatchPath: string = './img/priconne_match.png';
+	private stickersPath: string = './img/stickers.jpg';
+	private likeCounterPath: string = './img/like_counter.jpg';
+	private clanProfileGeneratorPath: string = './img/clan_profile_card_generator.jpg';
+	private lootBoxAnnouncementImageGeneratorPath: string = './img/loot_box_announcement_image_generator.jpg';
+	private priconneMatchPath: string = './img/priconne_match.jpg';
 }
 </script>
 <style scoped>
