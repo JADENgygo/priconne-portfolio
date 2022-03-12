@@ -7,19 +7,19 @@
 		<div class="uk-flex uk-flex-middle uk-child-width-1-2 uk-margin-top">
 			<div class="uk-margin-small-right uk-text-center"><img v-bind:src="stickersPath"></div>
 			<div class="uk-margin-small-left uk-text-center">
-				<a href="https://princess-connect-stickers.netlify.app">プリコネスタンプ</a>
+				<a href="https://priconne-stickers.vercel.app">プリコネスタンプ</a>
 			</div>
 		</div>
 		<div class="uk-flex uk-flex-middle uk-child-width-1-2 uk-margin-xlarge-top">
 			<div class="uk-margin-small-right uk-text-center">
-				<a href="https://princess-connect-like-counter.netlify.app">いいねカウンター</a>
+				<a href="https://priconne-good.vercel.app">プリコネグッド</a>
 			</div>
 			<div class="uk-margin-small-left uk-text-center"><img v-bind:src="likeCounterPath"></div>
 		</div>
 		<div class="uk-flex uk-flex-middle uk-child-width-1-2 uk-margin-xlarge-top">
 			<div class="uk-margin-small-right uk-text-center"><img v-bind:src="clanProfileGeneratorPath"></div>
 			<div class="uk-margin-small-left uk-text-center">
-				<a href="https://princess-connect-clan-profile-card-generator.netlify.app">クランプロフカードジェネレーター</a>
+				<a href="https://priconne-profile.vercel.app">プリコネプロフ</a>
 			</div>
 		</div>
 		<div class="uk-flex uk-flex-middle uk-child-width-1-2 uk-margin-xlarge-top">
