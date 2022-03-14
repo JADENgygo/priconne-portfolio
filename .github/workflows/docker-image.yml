@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: CI
 
 on:
   push:
@@ -11,9 +11,6 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: "16"
       - run: |
           message=$(git log --oneline -n 1 | sed -E 's/^\S+ (.+)/\1/')
           gh pr create --title "${message}" --body "自動生成プルリクエスト" --base main
