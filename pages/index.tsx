@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           </div>
           <div className="col-6">
             <Image
-              src={"/img/stickers.jpg"}
+              src={"/img/priconne-stickers.jpg"}
               width={1214}
               height={468}
               alt={"stickers"}
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           </div>
           <div className="col-6">
             <Image
-              src={"/img/like_counter.jpg"}
+              src={"/img/priconne-good.jpg"}
               width={706}
               height={426}
               alt={"like_counter"}
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
           </div>
           <div className="col-6">
             <Image
-              src={"/img/clan_profile_card_generator.jpg"}
+              src={"/img/priconne-profile.jpg"}
               width={1920}
               height={1080}
               alt={"clan_profile_card_generator"}
