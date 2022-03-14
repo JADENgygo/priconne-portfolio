@@ -1,0 +1,17 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [dev]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          message=$(git log --oneline -n 1 | sed -E 's/^\S+ (.+)/\1/')
+          gh pr create --title "${message}" --body "自動生成プルリクエスト" --base master
+          gh pr merge --merge
