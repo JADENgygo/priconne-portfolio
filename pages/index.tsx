@@ -113,7 +113,7 @@ const Home: NextPage = () => {
           </div>
           <div className="col-6">
             <Image
-              src={"/img/priconne_match.jpg"}
+              src={"/img/priconne-match.jpg"}
               width={1190}
               height={644}
               alt={"priconne_match"}
