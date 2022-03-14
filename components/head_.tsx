@@ -7,10 +7,7 @@ export const Head_ = () => (
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@JADENgygo" />
-    <meta
-      property="og:url"
-      content="https://priconne-portfolio.vercel.app"
-    />
+    <meta property="og:url" content="https://priconne-portfolio.vercel.app" />
     <meta property="og:title" content="プリコネツール" />
     <meta property="og:description" content="プリコネRのツール一覧" />
     <meta
