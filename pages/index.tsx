@@ -61,10 +61,10 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/loot_box_announcement_image_generator.jpg"}
+            src={"/img/priconne-fresher.jpg"}
             width={900}
             height={500}
-            alt={"loot_box_announcement_image_generator"}
+            alt={"priconne-fresher"}
           />
         </div>
         <div className="col-6">
@@ -73,8 +73,8 @@ const Home: NextPage = () => {
             style={{ height: "100%" }}
           >
             <div>
-              <a href="https://princess-connect-loot-box-announcement-image-generator.netlify.app">
-                ガチャ告知画像ジェネレーター
+              <a href="https://priconne-fresher.vercel.app">
+                プリコネフレッシャー
               </a>
             </div>
           </div>
