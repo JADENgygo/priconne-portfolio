@@ -8,7 +8,7 @@ export const Footer = (props: { className?: string }) => {
           <i className="bi bi-twitter"></i>
         </a>
       </div>
-      <div>画像: (C) Cygames, Inc.</div>
+      <div>画像: &copy; Cygames, Inc. / 暁なつめ・三嶋くろね</div>
     </div>
   );
 };
