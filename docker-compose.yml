@@ -3,7 +3,7 @@ services:
   web:
     build:
       context: .
-    image: priconne-portfolio
+    image: jadengygo/priconne-portfolio
     ports:
       - 3000:3000
     volumes:
