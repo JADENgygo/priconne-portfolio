@@ -19,18 +19,18 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-stickers.jpg"}
+            src={"/img/priconne-stickers.webp"}
             width={1214}
             height={468}
-            alt={"stickers"}
+            alt={"priconne-stickers"}
           />
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-good.jpg"}
-            width={706}
-            height={426}
-            alt={"like_counter"}
+            src={"/img/priconne-good.webp"}
+            width={320}
+            height={312}
+            alt={"priconne-good"}
           />
         </div>
         <div className="col-6">
