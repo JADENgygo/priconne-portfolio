@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className="content">
       <Head>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>プリコネフレッシャー</title>
+        <title>プリコネツール</title>
       </Head>
       <Header className="mt-3" />
       <Component {...pageProps} />
