@@ -56,7 +56,7 @@ const Home: NextPage = () => {
             src={"/img/priconne-profile.jpg"}
             width={1920}
             height={1080}
-            alt={"clan_profile_card_generator"}
+            alt={"priconne-profile"}
           />
         </div>
         <div className="col-6">
@@ -96,7 +96,7 @@ const Home: NextPage = () => {
             src={"/img/priconne-match.jpg"}
             width={1190}
             height={644}
-            alt={"priconne_match"}
+            alt={"priconne-match"}
           />
         </div>
         <div className="col-6">
@@ -118,6 +118,26 @@ const Home: NextPage = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className="col-6">
+          <div
+            className="d-flex justify-content-center align-items-center"
+            style={{ height: "100%" }}
+          >
+            <div>
+              <a href="https://priconne-radio.vercel.app">
+                プリコネラジオファン
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-6">
+          <Image
+            src={"/img/priconne-radio.jpg"}
+            width={1190}
+            height={644}
+            alt={"priconne-radio"}
+          />
         </div>
       </div>
     </div>
