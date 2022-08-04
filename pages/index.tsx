@@ -139,6 +139,26 @@ const Home: NextPage = () => {
             alt={"priconne-radio"}
           />
         </div>
+        <div className="col-6">
+          <Image
+            src={"/img/priconne-panel.png"}
+            width={364}
+            height={320}
+            alt={"priconne-panel"}
+          />
+        </div>
+        <div className="col-6">
+          <div
+            className="d-flex justify-content-center align-items-center"
+            style={{ height: "100%" }}
+          >
+            <div>
+              <a href="https://priconne-panel.vercel.app">
+                プリコネパネル
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
