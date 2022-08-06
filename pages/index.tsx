@@ -159,6 +159,26 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+        <div className="col-6">
+          <div
+            className="d-flex justify-content-center align-items-center"
+            style={{ height: "100%" }}
+          >
+            <div>
+              <a href="https://priconne-tarots.vercel.app">
+                プリコネタロット
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-6">
+          <Image
+            src={"/img/priconne-tarots.png"}
+            width={369}
+            height={249}
+            alt={"priconne-tarots"}
+          />
+        </div>
       </div>
     </div>
   );
