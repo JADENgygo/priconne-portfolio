@@ -11,7 +11,7 @@ const Home: NextPage = () => {
             style={{ height: "100%" }}
           >
             <div>
-              <a href="https://priconne-stickers.vercel.app">
+              <a href="https://priconne-stickers.netlify.app">
                 プリコネスタンプ
               </a>
             </div>
