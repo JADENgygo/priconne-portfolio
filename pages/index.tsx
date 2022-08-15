@@ -219,6 +219,26 @@ const Home: NextPage = () => {
             alt={"priconne-nano"}
           />
         </div>
+        <div className="col-6">
+          <Image
+            src={"/img/priconne-block.png"}
+            width={195}
+            height={315}
+            alt={"priconne-block"}
+          />
+        </div>
+        <div className="col-6">
+          <div
+            className="d-flex justify-content-center align-items-center"
+            style={{ height: "100%" }}
+          >
+            <div>
+              <a href="https://priconne-block.vercel.app">
+                プリコネブロック
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
