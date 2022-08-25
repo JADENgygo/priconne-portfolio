@@ -53,7 +53,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-profile.jpg"}
+            src={"/img/priconne-profile.webp"}
             width={1920}
             height={1080}
             alt={"priconne-profile"}
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-fresher.jpg"}
+            src={"/img/priconne-fresher.webp"}
             width={900}
             height={500}
             alt={"priconne-fresher"}
@@ -85,23 +85,23 @@ const Home: NextPage = () => {
             style={{ height: "100%" }}
           >
             <div>
-              <a href="https://princess-connect-clan-matcher.netlify.app">
-                ぷりこねまっち
+              <a href="https://priconne-match.vercel.app">
+                プリコネマッチ
               </a>
             </div>
           </div>
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-match.jpg"}
-            width={1190}
-            height={644}
+            src={"/img/priconne-match.webp"}
+            width={1322}
+            height={617}
             alt={"priconne-match"}
           />
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-cherun.jpg"}
+            src={"/img/priconne-cherun.webp"}
             width={477}
             height={370}
             alt={"priconne-cherun"}
@@ -133,7 +133,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-radio.jpg"}
+            src={"/img/priconne-radio.webp"}
             width={1190}
             height={644}
             alt={"priconne-radio"}
@@ -141,7 +141,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-panel.png"}
+            src={"/img/priconne-panel.webp"}
             width={364}
             height={320}
             alt={"priconne-panel"}
@@ -173,7 +173,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-tarots.png"}
+            src={"/img/priconne-tarots.webp"}
             width={369}
             height={249}
             alt={"priconne-tarots"}
@@ -181,7 +181,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-tower.png"}
+            src={"/img/priconne-tower.webp"}
             width={320}
             height={240}
             alt={"priconne-tower"}
@@ -213,7 +213,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-nano.png"}
+            src={"/img/priconne-nano.webp"}
             width={599}
             height={247}
             alt={"priconne-nano"}
@@ -221,7 +221,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-block.png"}
+            src={"/img/priconne-block.webp"}
             width={195}
             height={315}
             alt={"priconne-block"}
@@ -253,7 +253,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-15.png"}
+            src={"/img/priconne-15.webp"}
             width={300}
             height={315}
             alt={"priconne-15"}
@@ -261,7 +261,7 @@ const Home: NextPage = () => {
         </div>
         <div className="col-6">
           <Image
-            src={"/img/priconne-who.png"}
+            src={"/img/priconne-who.webp"}
             width={639}
             height={344}
             alt={"priconne-who"}
