@@ -6,24 +6,18 @@ const Home: NextPage = () => {
     <div className="container">
       <div className="row text-center mt-1 gy-5">
         <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-stickers.vercel.app">
-                プリコネスタンプ
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
           <Image
             src={"/img/priconne-stickers.webp"}
             width={1214}
             height={468}
             alt={"priconne-stickers"}
           />
+        </div>
+        <div className="col-6">
+          <a href="https://priconne-stickers.vercel.app">
+            プリコネスタンプ
+          </a>
+          <div className="mt-3">スタンプ集</div>
         </div>
         <div className="col-6">
           <Image
@@ -34,22 +28,8 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-good.vercel.app">プリコネグッド</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <a href="https://priconne-profile.vercel.app">プリコネプロフ</a>
-          </div>
+          <a href="https://priconne-good.vercel.app">プリコネグッド</a>
+          <div className="mt-3">クラメンへのいいね管理ツール</div>
         </div>
         <div className="col-6">
           <Image
@@ -60,6 +40,10 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
+          <a href="https://priconne-profile.vercel.app">プリコネプロフ</a>
+          <div className="mt-3">プロフカード作成ツール</div>
+        </div>
+        <div className="col-6">
           <Image
             src={"/img/priconne-fresher.webp"}
             width={900}
@@ -68,28 +52,10 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-fresher.vercel.app">
-                プリコネフレッシャー
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-match.vercel.app">
-                プリコネマッチ
-              </a>
-            </div>
-          </div>
+          <a href="https://priconne-fresher.vercel.app">
+            プリコネフレッシャー
+          </a>
+          <div className="mt-3">ガチャ告知画像作成ツール</div>
         </div>
         <div className="col-6">
           <Image
@@ -100,6 +66,12 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
+          <a href="https://priconne-match.vercel.app">
+            プリコネマッチ
+          </a>
+          <div className="mt-3">クラン登録/検索ツール</div>
+        </div>
+        <div className="col-6">
           <Image
             src={"/img/priconne-cherun.webp"}
             width={477}
@@ -108,28 +80,10 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-cherun.vercel.app">
-                プリコネちぇるーん
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-radio.vercel.app">
-                プリコネラジオファン
-              </a>
-            </div>
-          </div>
+          <a href="https://priconne-cherun.vercel.app">
+            プリコネちぇるーん
+          </a>
+          <div className="mt-3">プログラミング言語ちぇる (Brainf***のちぇる語版)</div>
         </div>
         <div className="col-6">
           <Image
@@ -140,6 +94,12 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
+          <a href="https://priconne-radio.vercel.app">
+            プリコネラジオファン
+          </a>
+          <div className="mt-3">プリコネラジオのファンサイト</div>
+        </div>
+        <div className="col-6">
           <Image
             src={"/img/priconne-panel.webp"}
             width={364}
@@ -148,28 +108,10 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-panel.vercel.app">
-                プリコネパネル
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-tarots.vercel.app">
-                プリコネタロット
-              </a>
-            </div>
-          </div>
+          <a href="https://priconne-panel.vercel.app">
+            プリコネパネル
+          </a>
+          <div className="mt-3">エリザベスパークの特大顔出しパネルの画像作成ツール</div>
         </div>
         <div className="col-6">
           <Image
@@ -180,6 +122,12 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
+          <a href="https://priconne-tarots.vercel.app">
+            プリコネタロット
+          </a>
+          <div className="mt-3">タロット占い</div>
+        </div>
+        <div className="col-6">
           <Image
             src={"/img/priconne-tower.webp"}
             width={320}
@@ -188,28 +136,10 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-tower.vercel.app">
-                プリコネタワー
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-nano.vercel.app">
-                プリコネなの
-              </a>
-            </div>
-          </div>
+          <a href="https://priconne-tower.vercel.app">
+            プリコネタワー
+          </a>
+          <div className="mt-3">ハノイの塔 (パズルゲーム)</div>
         </div>
         <div className="col-6">
           <Image
@@ -220,6 +150,12 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
+          <a href="https://priconne-nano.vercel.app">
+            プリコネなの
+          </a>
+          <div className="mt-3">Twitterの文章をなの語尾にするChrome拡張</div>
+        </div>
+        <div className="col-6">
           <Image
             src={"/img/priconne-block.webp"}
             width={195}
@@ -228,28 +164,10 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-block.vercel.app">
-                プリコネブロック
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-15.vercel.app">
-                プリコネ15
-              </a>
-            </div>
-          </div>
+          <a href="https://priconne-block.vercel.app">
+            プリコネブロック
+          </a>
+          <div className="mt-3">落ち物パズル</div>
         </div>
         <div className="col-6">
           <Image
@@ -260,6 +178,12 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
+          <a href="https://priconne-15.vercel.app">
+            プリコネ15
+          </a>
+          <div className="mt-3">15パズル</div>
+        </div>
+        <div className="col-6">
           <Image
             src={"/img/priconne-who.webp"}
             width={639}
@@ -268,16 +192,10 @@ const Home: NextPage = () => {
           />
         </div>
         <div className="col-6">
-          <div
-            className="d-flex justify-content-center align-items-center"
-            style={{ height: "100%" }}
-          >
-            <div>
-              <a href="https://priconne-who.vercel.app">
-                プリコネ誰かな
-              </a>
-            </div>
-          </div>
+          <a href="https://priconne-who.vercel.app">
+            プリコネ誰かな
+          </a>
+          <div className="mt-3">画像の一部からキャラを当てるクイズ</div>
         </div>
       </div>
     </div>
