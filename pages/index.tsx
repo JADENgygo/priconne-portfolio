@@ -197,6 +197,20 @@ const Home: NextPage = () => {
           </a>
           <div className="mt-3">画像の一部からキャラを当てるクイズ</div>
         </div>
+        <div className="col-6">
+          <Image
+            src={"/img/priconne-calendar.webp"}
+            width={377}
+            height={545}
+            alt={"priconne-calendar"}
+          />
+        </div>
+        <div className="col-6">
+          <a href="https://priconne-calendar.vercel.app">
+            プリコネカレンダー
+          </a>
+          <div className="mt-3">キャラの誕生日カレンダー</div>
+        </div>
       </div>
     </div>
   );
