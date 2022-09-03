@@ -211,6 +211,20 @@ const Home: NextPage = () => {
           </a>
           <div className="mt-3">キャラの誕生日カレンダー</div>
         </div>
+        <div className="col-6">
+          <Image
+            src={"/img/priconne-cord.webp"}
+            width={1307}
+            height={720}
+            alt={"priconne-cord"}
+          />
+        </div>
+        <div className="col-6">
+          <a href="https://priconne-cord.vercel.app">
+            プリコード (アルファ版)
+          </a>
+          <div className="mt-3">クランバトル管理ツール</div>
+        </div>
       </div>
     </div>
   );
