@@ -240,6 +240,21 @@ const Home: NextPage = () => {
           </a>
           <div className="mt-3">クランバトル管理ツール</div>
         </div>
+        <hr />
+        <div className="col-sm-6 col-12">
+          <Image
+            src={"/img/priconne-rosetta.webp"}
+            width={375}
+            height={200}
+            alt={"priconne-rosetta"}
+          />
+        </div>
+        <div className="col-sm-6 col-12">
+          <a href="https://priconne-rosetta.vercel.app">
+            プリコネロゼッタ
+          </a>
+          <div className="mt-3">ロゼッタのチャットボット</div>
+        </div>
       </div>
     </div>
   );
