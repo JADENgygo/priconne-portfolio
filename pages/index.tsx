@@ -255,6 +255,21 @@ const Home: NextPage = () => {
           </a>
           <div className="mt-3">ロゼッタのチャットボット</div>
         </div>
+        <hr />
+        <div className="col-sm-6 col-12">
+          <Image
+            src={"/img/priconne-jigsaw.webp"}
+            width={809}
+            height={806}
+            alt={"priconne-jigsaw"}
+          />
+        </div>
+        <div className="col-sm-6 col-12">
+          <a href="https://priconne-jigsaw.vercel.app">
+            プリコネジグソー
+          </a>
+          <div className="mt-3">ジグソーパズル</div>
+        </div>
       </div>
     </div>
   );
