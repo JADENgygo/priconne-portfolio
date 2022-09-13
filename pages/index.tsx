@@ -270,6 +270,21 @@ const Home: NextPage = () => {
           </a>
           <div className="mt-3">ジグソーパズル</div>
         </div>
+        <hr />
+        <div className="col-sm-6 col-12">
+          <Image
+            src={"/img/priconne-timer.webp"}
+            width={375}
+            height={386}
+            alt={"priconne-timer"}
+          />
+        </div>
+        <div className="col-sm-6 col-12">
+          <a href="https://priconne-timer.vercel.app">
+            プリコネタイマー
+          </a>
+          <div className="mt-3">タイマーアプリ</div>
+        </div>
       </div>
     </div>
   );
