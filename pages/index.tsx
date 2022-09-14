@@ -286,6 +286,21 @@ const Home: NextPage = () => {
           </a>
           <div className="mt-3">タイマーアプリ</div>
         </div>
+        <hr />
+        <div className="col-sm-6 col-12">
+          <Image
+            src={"/img/priconne-yabai.webp"}
+            width={361}
+            height={422}
+            alt={"priconne-yabai"}
+          />
+        </div>
+        <div className="col-sm-6 col-12">
+          <a href="https://priconne-yabai.vercel.app">
+            プリコネヤバイ
+          </a>
+          <div className="mt-3">やばいですね画像表示ツール</div>
+        </div>
       </div>
     </div>
   );
