@@ -4,6 +4,7 @@ import Image from "next/image";
 const Home: NextPage = () => {
   return (
     <div className="container">
+      <div className="mt-3">プリコネRのツール・ゲーム集だよ</div>
       <div className="row text-center gy-3 mt-3">
         <div className="col-sm-6 co-12">
           <Image
