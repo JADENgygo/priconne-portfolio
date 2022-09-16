@@ -1,11 +1,16 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
     <div className="container">
       <div className="mt-3">プリコネRのツール・ゲーム集だよ</div>
-      <div className="row text-center gy-3 mt-3">
+      <div className="alert alert-info mt-3" role="alert">
+        9.14 <a href="https://priconne-yabai.vercel.app">プリコネヤバイ</a> リリース
+      </div>
+      <div className="row text-center gy-3">
+        <hr />
         <div className="col-sm-6 co-12">
           <Image
             src={"/img/priconne-stickers.webp"}
