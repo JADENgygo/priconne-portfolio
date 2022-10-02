@@ -1,11 +1,13 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
     <div className="container">
       <div className="mt-3">プリコネRのツール・ゲーム集だよ</div>
+      <div className="alert alert-info mt-3" role="alert">
+        2022.10.2 <a href="https://priconne-transpiler.vercel.app">プリコネパイラー</a> リリース
+      </div>
       <div className="alert alert-info mt-3" role="alert">
         2022.9.14 <a href="https://priconne-yabai.vercel.app">プリコネヤバイ</a> リリース
       </div>
@@ -305,6 +307,21 @@ const Home: NextPage = () => {
             プリコネヤバイ
           </a>
           <div className="mt-3">やばいですね画像表示ツール</div>
+        </div>
+        <hr />
+        <div className="col-sm-6 col-12">
+          <Image
+            src={"/img/priconne-transpiler.webp"}
+            width={375}
+            height={259}
+            alt={"priconne-transpiler"}
+          />
+        </div>
+        <div className="col-sm-6 col-12">
+          <a href="https://priconne-transpiler.vercel.app">
+            プリコネパイラー
+          </a>
+          <div className="mt-3">アストルム文字生成ツール</div>
         </div>
       </div>
     </div>
